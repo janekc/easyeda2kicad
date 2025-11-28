@@ -1,0 +1,206 @@
+(footprint "SMTSO3030CTJ"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "SMD_BD5.6-L5.6-W5.6-D4.1 footprint")
+	(tags "SMD_BD5.6-L5.6-W5.6-D4.1 footprint")
+	(property "Reference" "U14"
+		(at 0 -4.171704 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "72803864-7cd5-4c38-91bd-86896cecf575")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMTSO3015CTJ"
+		(at 0 4.171704 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8256621d-2bfd-4a62-8984-e0ddb0dbb2d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "beeade56-5258-43b1-a8bf-6c6050302fc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2549036b-dc03-4cdb-9f3b-4fb4be20a9aa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8385889a-96d1-4886-b497-8f49c89e74df")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC #" "C2915308"
+		(at 1032.1226 -223.8658 -90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d7b95fd-b9d3-4ff4-b37c-f7825303de58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0.009995 0.00254)
+		(end 3.309995 0.00254)
+		(stroke
+			(width 0.127991)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1e4f38a7-049f-4b1b-8c8c-2742c6357e6a")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.00997 0.00254)
+		(size 4.249987 4.249987)
+		(drill 4.249987)
+		(layers "*.Cu" "*.Mask")
+		(uuid "45320794-f2d2-4a08-a0bc-4c1c280f83be")
+	)
+	(pad "1" smd circle
+		(at -2.7432 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ba8446af-74df-4746-91b6-1d16495594ad")
+	)
+	(pad "1" smd circle
+		(at -2.54 -1.0414)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3d7db455-05f7-4bb3-859b-f55e875ec5b1")
+	)
+	(pad "1" smd circle
+		(at -2.5146 1.0414)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "642759ba-fbe1-42e1-bc6d-b0c78a9c7bc7")
+	)
+	(pad "1" smd circle
+		(at -1.9812 -1.905)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ef97ce44-324d-46f8-bbf0-117434a48213")
+	)
+	(pad "1" smd circle
+		(at -1.9558 1.9558)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6056f9de-bd5b-4f5d-9273-b13ae3abc2cc")
+	)
+	(pad "1" smd circle
+		(at -1.0922 -2.54)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "388029b0-c57b-420d-baf9-40cf7d5b9e00")
+	)
+	(pad "1" smd circle
+		(at -1.0414 2.5654)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "46487a4e-0737-491a-9648-bec45e1b7275")
+	)
+	(pad "1" smd circle
+		(at 0 -2.7686)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0897bdc4-f53a-4648-8211-29569952108d")
+	)
+	(pad "1" smd circle
+		(at 0 2.7686)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "508bd6af-e91b-4dde-a330-7bdc6f7fa26f")
+	)
+	(pad "1" smd circle
+		(at 1.0922 2.54)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6fb7352a-ffe8-4239-b013-7a879a4eb812")
+	)
+	(pad "1" smd circle
+		(at 1.143 -2.5146)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c8aa69aa-6d2c-493e-8640-276f06cf1000")
+	)
+	(pad "1" smd circle
+		(at 1.9812 -1.9304)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0150f6be-0f32-4c9e-822f-71639b52d3e8")
+	)
+	(pad "1" smd circle
+		(at 1.9812 1.9558)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "74b5f38b-94b7-45f7-917f-edce3c148f0b")
+	)
+	(pad "1" smd circle
+		(at 2.5654 -1.016)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a675cae4-6000-4bb7-b7bf-962444873a1e")
+	)
+	(pad "1" smd circle
+		(at 2.5654 1.0922)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5ada59f9-1560-48eb-961b-ab30db39cf6d")
+	)
+	(pad "1" smd circle
+		(at 2.7432 0)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b75739ee-be1e-4ce9-bb04-3e3947cb1b60")
+	)
+	(model "${GLOWINGKITTYPARTS}/footprint/packages3d/SMTSO3030CTJ.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
