@@ -1,0 +1,274 @@
+(footprint "CONNECTOR_MOLEX_one"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "T12"
+		(at 0 0 90)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "d9523c51-8d75-4bf9-a6f6-b8209bc04b04")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.2)
+			)
+		)
+	)
+	(property "Value" "tab_0.8x6.3x10"
+		(at 0 0 90)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "ee6e3ded-a90c-4244-954c-aac513bd4d36")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/salesdrawingpdf/197/19705/197054001_sd.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "ea897585-b0e6-4df8-b5e7-2e02a4fcb3ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" "PCB tab"
+		(at 70 -54.735786 90)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "dcd44ba6-ebca-4a6b-9839-c5ec8ea7b5b7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "DigiKey" ""
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c73faad-0c9a-4b0c-bbb9-7f9711ef2f2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB" ""
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ce74f15-d4a5-47fa-903f-a5bcbf866e2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPCB_CORRECTION" ""
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c96a4f21-39cf-4f24-9aaf-29859c8c5f7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C505008"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e07159d0-6032-45a9-be16-1cfabd33d583")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "qeda_part" "connector/tab_molex_197054001"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f241ae4-ec1a-4216-adb2-6fa34bf9f6ca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "qeda_variant" ""
+		(at 0 0 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b7aae91-37f3-4ea8-a68b-895bcbd5e19b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.05 -1.15)
+		(end -4.05 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ecb4fb3f-0b63-4764-acfc-a0822a5b2463")
+	)
+	(fp_line
+		(start -4.05 1.6)
+		(end -4.05 1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b117e1a8-8510-4c56-8cbc-1c4546393bad")
+	)
+	(fp_line
+		(start -4.05 1.6)
+		(end 4.05 1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f84fda5b-82f8-4eca-ba4e-fa27fcdb77ff")
+	)
+	(fp_line
+		(start 4.05 -1.6)
+		(end -4.05 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffc31268-edff-4d2e-a36c-b884bf6accbe")
+	)
+	(fp_line
+		(start 4.05 -1.15)
+		(end 4.05 -1.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "27191ba0-4842-48fc-af91-643f2b50a36a")
+	)
+	(fp_line
+		(start 4.05 1.6)
+		(end 4.05 1.15)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9675a232-a2c7-4f40-85ec-ae48c8503ae3")
+	)
+	(fp_rect
+		(start 4.2 1.75)
+		(end -4.2 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "9a15f8d0-3908-47af-935b-33b8e52f2d5a")
+	)
+	(fp_line
+		(start 0 0.7)
+		(end 0 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "74536391-329a-4157-b2de-fce2ae996834")
+	)
+	(fp_line
+		(start 0.7 0)
+		(end -0.7 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f6a04ed5-d454-49cc-8da5-fbfd0b335135")
+	)
+	(fp_rect
+		(start 3.95 1.5)
+		(end -3.95 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "005777d3-c358-4be3-9c5a-a0027e3f14ff")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c67d0a36-b534-49bb-8865-091fc873f7b5")
+	)
+	(pad "1" thru_hole oval
+		(at -2.54 0)
+		(size 2.7 1.7)
+		(drill oval 1.9 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
+		(uuid "bb95298d-e0db-406b-bf6a-5e94a907daa0")
+	)
+	(pad "1" thru_hole oval
+		(at 2.54 0)
+		(size 2.7 1.7)
+		(drill oval 1.9 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.05)
+		(uuid "391ef54d-6662-4381-ac3d-c2dfa920b282")
+	)
+	(embedded_fonts no)
+	(model "../qeda.3dshapes/CONNECTOR_MOLEX_197054001.stp"
+		(offset
+			(xyz 0 0 0.8499999872)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
