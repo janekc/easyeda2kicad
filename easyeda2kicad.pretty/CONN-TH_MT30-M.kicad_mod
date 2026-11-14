@@ -268,4 +268,8 @@
 		(uuid "fa4d4145-60c2-42d8-ba67-22c6dbe6e8b2")
 	)
 	(embedded_fonts no)
+	(model "${EASYEDA2KICAD}/easyeda2kicad.3dshapes/MT30_Male_Connector.stp"
+    (offset (xyz -2.951 -0.763 6.25))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 90)))
 )
